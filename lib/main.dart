@@ -1,4 +1,4 @@
-import 'package:challenge_one/screen/home_page.dart';
+import 'package:challenge_one/view/home_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class ChallengeOne extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const HomeView(),
       theme: ThemeData(
           textTheme: const TextTheme(
               headline2: TextStyle(
